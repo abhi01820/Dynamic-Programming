@@ -6,6 +6,9 @@ using namespace std;
 class RecursionSol{
     public:
         int solve(vector<int>& jobs,int idx,int d,int n){
+
+
+            
             if(d==1){
                 int maxi=jobs[idx];
                 for(int i=idx;i< n;i++){
